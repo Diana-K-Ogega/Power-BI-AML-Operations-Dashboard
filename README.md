@@ -72,7 +72,7 @@ Productivity =
 DIVIDE(
     COUNTROWS(Alerts), 
     DISTINCTCOUNT(Alerts[Analyst_Name]) * DISTINCTCOUNT(Alerts[Date_Created])
-
+ )
 
 ## What I Learned
 
