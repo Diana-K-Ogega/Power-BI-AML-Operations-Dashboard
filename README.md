@@ -1,7 +1,5 @@
 # AML Operations Dashboard
 
-<img width="1004" height="497" alt="image" src="https://github.com/user-attachments/assets/925c409b-77c4-43fc-bebc-a4c9acd8045b" />
-
 
 ## Introduction
 In high-stakes financial compliance environments, operational backlogs directly expose institutions to systemic regulatory penalties and financial crime vulnerabilities. This project delivers an enterprise-ready, end-to-end Power BI data analytics solution that simulates a live Anti-Money Laundering (AML) Operations Center. 
