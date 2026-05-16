@@ -58,7 +58,9 @@ To maximize layout precision, build efficiency, and alignment consistency during
 ## The Process
 1. **Data Sheet Ingestion:** Generated an multi-sheet operational workbook (`aml_alerts_data.xlsx`) simulating real-world transaction monitoring variables, including timestamps, analyst names, and risk codes.
 2. **Schema Calibration:** Configured data connections within Power BI, resolving column types, identifying unique row keys, and verifying proper data alignment.
+
 3. **DAX Architecture:** Formulated performance measures to isolate underlying data signals without introducing row-context processing drag:
+
 ```dax
 -- Suspicious Activity Report (SAR) Conversion Efficiency Rate
 SAR Rate = 
@@ -72,7 +74,8 @@ Productivity =
 DIVIDE(
     COUNTROWS(Alerts), 
     DISTINCTCOUNT(Alerts[Analyst_Name]) * DISTINCTCOUNT(Alerts[Date_Created])
-) * 100
+)
+
 
 ## What I Learned
 
