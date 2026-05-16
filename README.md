@@ -31,19 +31,19 @@ The dashboard ingests, maps, and models mock financial intelligence data across 
 
 ### Page 2 — Alert Volume Trends
 *Displays case distribution over time and highlights high-risk financial crime categories to assist compliance managers with resource allocation.*
-*(Insert `alert_volume-trends.png` here)*
+*![Alternative Text](alert-volume-trends.png)* 
 
 ### Page 3 — Analyst Performance
 *Monitors operational throughput, investigative capacity, and file quality scores across the enforcement team.*
-*(Insert `analyst_perfomance.png` here)*
+*![Alternative Text](analyst_perfomance.png)*
 
 ### Page 4 — Geographic Risk Assessment
 *Maps operational alert density across international jurisdictions to isolate cross-border exposure risks.*
-*(Insert `geographic_risk.png` here)*
+*![Alternative Text](geographic_risk.png)*
 
 ### Page 5 — Case Typology Analysis
 *Breaks down the operational data cube by specific crime methods and risk categories, ensuring exact legal alignment.*
-*(Insert `case_agency.png` here)*
+*![Alternative Text](case_agency.png)*
 
 ---
 
