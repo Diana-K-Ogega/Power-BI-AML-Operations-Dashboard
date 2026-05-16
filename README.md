@@ -9,7 +9,7 @@ The dashboard ingests, maps, and models mock financial intelligence data across 
 
 ## Technologies List
 * **Data Visualization & Business Intelligence:** Microsoft Power BI Desktop
-* **Data Storage & Engineering Source:** Microsoft Excel (`aml_alerts_data.xlsx`)
+* **Data Storage & Engineering Source:** Microsoft Excel ![Alternative Text](aml_alerts_data.xlsx) 
 * **Analytical Calculation Engine:** Data Analysis Expressions (DAX)
 * **Version Control:** Git & GitHub
 
@@ -27,7 +27,7 @@ The dashboard ingests, maps, and models mock financial intelligence data across 
 
 ### Page 1 — Executive Summary
 *Provides a high-level operational overview of total cases, open vs. closed resolution rates, critical SLA breaches, and overall SAR filing conversion performance.*
-*(Insert `executive_summary.png` here)*
+*![Alternative Text](executive_summary.png)*
 
 ### Page 2 — Alert Volume Trends
 *Displays case distribution over time and highlights high-risk financial crime categories to assist compliance managers with resource allocation.*
