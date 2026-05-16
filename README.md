@@ -73,3 +73,30 @@ DIVIDE(
     COUNTROWS(Alerts), 
     DISTINCTCOUNT(Alerts[Analyst_Name]) * DISTINCTCOUNT(Alerts[Date_Created])
 )
+
+
+
+## What I Learned
+* **Context Overrides:** Discovered how column groupings affect chart generation, resolving rendering discrepancies where implicit data relationships obscured raw totals.
+* **UI Symmetrical Balancing:** Mastered the use of space allocation and side-by-side component pairs (such as pairing maps and charts with detailed data grids) to make complex information easily scannable.
+* **Deflective Dashboard Engineering:** Learned to replace default machine headers with explicit, business-ready terminology to match industry standards.
+
+---
+
+## How It Can Be Improved
+* **Direct Database Connectivity:** Migrate the underlying database architecture from static files to a live SQL Server or cloud environment to support automated, near real-time data refreshes.
+* **Incremental SLA Aging Tracks:** Expand case aging views by introducing incremental alert aging ranges (e.g., 0–2 days, 3–5 days, 5+ days) to catch operational backlog build-ups earlier.
+* **Predictive Risk Modeling:** Integrate Python scripts into the Power BI pipeline to execute proactive machine learning models that flag potential high-risk cases before manual reviews occur.
+
+---
+
+## Running the Project & Local Access
+
+### Project Architecture & Licensing Note
+Due to Microsoft Power BI licensing restrictions on standard personal accounts, hosting an active, interactive public cloud link via the Power BI Service is restricted. To ensure complete transparency and allow technical reviewers to interact with the model live, the fully configured database file (`AML_Transaction_Monitoring_Dashboard..pbix`) has been uploaded directly to this repository.
+
+### Step-by-Step Local Deployment
+1. Download and install **Microsoft Power BI Desktop** (available for free via the Microsoft Store or official site).
+2. Clone this repository or download the `AML_Transaction_Monitoring_Dashboard..pbix` file locally.
+3. Launch Power BI Desktop and open the `.pbix` file.
+4. Expand the right-side panes to review the data structures, underlying table joins, and custom DAX measures.
