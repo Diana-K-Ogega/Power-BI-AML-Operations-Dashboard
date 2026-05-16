@@ -74,7 +74,7 @@ Productivity =
 DIVIDE(
     COUNTROWS(Alerts), 
     DISTINCTCOUNT(Alerts[Analyst_Name]) * DISTINCTCOUNT(Alerts[Date_Created])
-)
+) * 100
 
 
 ## What I Learned
