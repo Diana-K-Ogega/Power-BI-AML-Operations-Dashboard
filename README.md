@@ -2,13 +2,15 @@
 
 
 ## Introduction
-In high-stakes financial compliance environments, operational backlogs directly expose institutions to systemic regulatory penalties and financial crime vulnerabilities. This project delivers an enterprise-ready, end-to-end Power BI data analytics solution that simulates a live Anti-Money Laundering (AML) Operations Center. 
 
-The dashboard ingests, models, and visualizes financial intelligence data across 249 global alerts. It provides compliance management with immediate visibility into pipeline backlogs, investigator capacity, crime typologies, and global jurisdiction risks.
+This project delivers an enterprise-ready, end-to-end Power BI data analytics solution that simulates a live Anti-Money Laundering (AML) Operations Center. 
+
+The dashboard models, and visualizes financial intelligence data across 249 global alerts. It provides compliance management with immediate visibility into pipeline backlogs, investigator capacity, crime typologies, and global jurisdiction risks.
 
 ---
 
 ## Technologies List
+
 * **Data Visualization & Business Intelligence:** Microsoft Power BI Desktop
 * **Data Storage & Engineering Source:** Microsoft Excel (aml_alerts_data.xlsx)
 * **Analytical Calculation Engine:** Data Analysis Expressions (DAX)
@@ -17,6 +19,7 @@ The dashboard ingests, models, and visualizes financial intelligence data across
 ---
 
 ## Features
+
 * **Executive Performance Tracking:** Interactive Key Performance Indicators (KPIs) mapping case resolution rates and investigative conversions.
 * **Dynamic Investigator Metrics:** High-fidelity matrix tracking individual investigator volume, average processing speed, and file quality scores.
 * **Geospatial Risk Mapping:** Dynamic map visualization plotting alert volume exposure by international country codes, instantly exposing high-volume geographic hubs.
@@ -25,6 +28,7 @@ The dashboard ingests, models, and visualizes financial intelligence data across
 ---
 
 ## Keyboard Shortcuts
+
 To maximize accessibility and ensure seamless executive navigation through this multi-page intelligence asset, the dashboard supports the following native Power BI navigation controls:
 * **Ctrl + Click**: Used to interact with cross-filtering components, select multiple countries on the geographic map, or toggle slicers without resetting prior criteria.
 * **Ctrl + Alt + Enter**: Accesses the underlying data matrix view for any focused chart component to review the raw transaction records.
@@ -42,7 +46,7 @@ To maximize accessibility and ensure seamless executive navigation through this 
 ### Page 2 — Alert Volume Trends
 *Displays case distribution over time and highlights high-risk financial crime categories to assist compliance managers with resource allocation.*
 <br>
-![Alert Volume Trends](alert_volume-trends.png)
+![Alert Volume Trends](alert-volume-trends.png)
 
 ### Page 3 — Analyst Performance
 *Monitors operational throughput, investigative capacity, and file quality scores across the enforcement team.*
